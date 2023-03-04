@@ -28,6 +28,10 @@
   right: 0;
 }
 
+.bgColor {
+  background-color: #1a57ff70 !important;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 .social {
   margin: 0 auto;
@@ -549,7 +553,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #1a57ff70 !important;
 }
 
 /* .teal-text {
