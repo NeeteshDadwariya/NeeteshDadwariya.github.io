@@ -67,8 +67,8 @@
     gtag('js', new Date());
     gtag('config', 'G-J4K93TBKQD');
 
-    function pushToGA(event) {
-        dataLayer.push({'event': event, 'event_name': event});
+    function pushToGA(event_label) {
+        gtag("event", event_label);
     }
 </script>
 
