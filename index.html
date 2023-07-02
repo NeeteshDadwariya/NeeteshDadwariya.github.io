@@ -57,20 +57,7 @@
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-J4K93TBKQD"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', 'G-J4K93TBKQD');
-
-    function pushToGA(event_label) {
-        gtag("event", event_label);
-    }
-</script>
+<script src="assets/script.js"></script>
 
 <body>
 <!-- Navigation Menu-->
@@ -86,20 +73,19 @@
         </li>
 
         <li class="bold">
-            <a aria-label="Navigate to the About section" href="#about" onclick="pushToGA('about')"
-               class="waves-effect waves-dark teal-text">
+            <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text">
                 <i class="mdi-social-person small"></i><span>About</span>
             </a>
         </li>
 
         <li class="bold">
-            <a aria-label="Navigate to the Experience section" href="#experience" onclick="pushToGA('experience')"
+            <a aria-label="Navigate to the Experience section" href="#experience"
                class="waves-effect waves-dark teal-text">
                 <i class="mdi-action-trending-up small"></i><span>Experience</span></a>
         </li>
 
         <li class="bold">
-            <a aria-label="Navigate to the Projects section" href="#projects" onclick="pushToGA('projects')"
+            <a aria-label="Navigate to the Projects section" href="#projects"
                class="waves-effect waves-dark teal-text"><i
                     class="mdi-av-my-library-books small"></i><span>Projects</span>
             </a>
@@ -167,20 +153,20 @@
 <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
         <li class="bold">
-            <a aria-label="Navigate to the About section" href="#about" onclick="pushToGA('about')"
+            <a aria-label="Navigate to the About section" href="#about"
                class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span>
             </a>
         </li>
 
         <li class="bold">
-            <a aria-label="Navigate to the Experience section" href="#experience" onclick="pushToGA('experience')"
+            <a aria-label="Navigate to the Experience section" href="#experience"
                class="waves-effect waves-dark teal-text"><i
                     class="mdi-action-trending-up small"></i><span>Experience</span>
             </a>
         </li>
 
         <li class="bold">
-            <a aria-label="Navigate to the Projects section" href="#projects" onclick="pushToGA('projects')"
+            <a aria-label="Navigate to the Projects section" href="#projects"
                class="waves-effect waves-dark teal-text"><i
                     class="mdi-av-my-library-books small"></i><span>Projects</span>
             </a>
@@ -509,12 +495,15 @@
                 </span>
                             <ul>
                                 <li><b>Tools: CNN, Deep Learning, OpenCV, TensorFlow, RESNet-V3 </b></li>
-                                <li> Developed a Flower classification model using transfer learning and fine-tuned it by retraining the back layers after removing them. By moderating hyper-parameters. Achieved an optimal accuracy of 95%.
+                                <li> Developed a Flower classification model using transfer learning and fine-tuned it
+                                    by retraining the back layers after removing them. By moderating hyper-parameters.
+                                    Achieved an optimal accuracy of 95%.
                                 </li>
                             </ul>
 
                             <div class="card-action">
-                                <a aria-label="Visit" onclick="pushToGA('project_transfer_learning_flower_classification')"
+                                <a aria-label="Visit"
+                                   onclick="pushToGA('project_transfer_learning_flower_classification')"
                                    href="https://github.com/NeeteshDadwariya/transfer-learning-flower-classification/blob/main/notebook.ipynb"
                                    target="_blank" data-position="top"
                                    data-tooltip="View Online"
